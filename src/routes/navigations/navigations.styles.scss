@@ -1,0 +1,32 @@
+.navigation {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 3em;
+    margin: 1em 0em 2em 0em;
+
+    .logo-container {
+        // float: left;
+        text-decoration: none;
+        text-decoration: none;
+        color: #000;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .links-container {
+        // float: right;
+        display: flex;
+        gap: 12px;
+
+        .nav-link {
+            text-decoration: none;
+            color: #000;
+            font-size: 18px;
+            font-weight: 500;
+         
+            
+        }
+    }
+
+}
