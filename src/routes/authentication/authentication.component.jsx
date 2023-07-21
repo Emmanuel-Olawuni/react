@@ -3,14 +3,10 @@ import SignInForm from '../../components/sign-in-form/sign-in.component';
 import "../authentication/authentication.styles.scss"
 
 const Authentication = () => {
-
-  
-    return (
+ return (
         <div className='authentication-container'>
-
             <SignInForm />
             <SignUpForm />
-
         </div>
     )
 
